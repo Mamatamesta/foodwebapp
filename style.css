@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color: indigo;
+    width: 100%;
+    height: 50px;
+}
+.nav-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    padding: 15px 10px;
+}
+.logo h1 {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px 10px;
+}
+.navbar ul li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: navajowhite;
+    display: block;
+    margin: auto;
+    transition: 0.6s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+/* ---section-one----*/
+.section-one{
+    background-color: darkslateblue;
+    width: 100%;
+    height: 600px;
+}
+.lets-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.start-magic {
+    padding-bottom: 15px;
+}
+.start-magic h1 {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+}
+.yogo-para{
+    line-height: 1.3em;
+    padding-bottom: 15px;
+}
+.yogo-para p {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #a99191;
+}
+.display-btn{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.btn-one {
+   
+}
+.btn-one button{
+    padding: 12px 29px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: black;
+}
